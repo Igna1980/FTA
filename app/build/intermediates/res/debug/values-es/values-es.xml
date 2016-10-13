@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string-array name="dia_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="hora_array">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string-array name="mes_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="tipo_array">
+        <item>FoodTruck</item>
+        <item>Trailer</item>
+        <item>Stand</item>
+        <item>Kiosk</item>
+    </string-array>
+    <string name="action_settings">Configuracion</string>
+    <string name="altura">Altura</string>
+    <string name="altura_requerido">Altura es Requerido</string>
+    <string name="app_name">StreetFood</string>
+    <string name="barrio">Barrio</string>
+    <string name="barrio_requerido">Barrio es Requerido</string>
+    <string name="calle">Calle</string>
+    <string name="calle_requerido">Calle es Requerido</string>
+    <string name="city_requerido">Ciudad es Requerido</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="comidas">Comida</string>
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-es/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita que la aplicación Android Wear se actualice."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que no actualices la aplicación Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Actualizar Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necesita uno o varios servicios de Google Play que no están disponibles en este momento. Ponte en contacto con el desarrollador para obtener ayuda."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Habilitar servicios de Google Play"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites los servicios de Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Habilitar servicios de Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitada por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Descargar servicios de Google Play"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los servicios de Google Play no están instalados en tu teléfono."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los servicios de Google Play no están instalados en tu tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Descargar servicios de Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Cuenta no válida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Una aplicación requiere que se habiliten los servicios de Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Se necesita una conexión de datos para establecer conexión con los servicios de Google Play."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Error de red"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Una aplicación requiere una actualización de servicios de Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Error de servicios de Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Error al iniciar sesión en la cuenta especificada. Selecciona otra cuenta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Error al iniciar sesión"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Error desconocido relacionado con los servicios de Google Play"</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> se basa en los servicios de Google Play, pero no son compatibles con tu dispositivo. Ponte en contacto con el fabricante para obtener asistencia."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Servicios de Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que no actualices los servicios de Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Actualizar servicios de Google Play"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de los servicios de Google Play."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Actualización servicios Play en curso"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="crear_camion">Confirmar</string>
+    <string name="crear_camion_label">Crear Camion</string>
+    <string name="crear_info">Crear Info.</string>
+    <string name="crear_info_label">Crear Informacion</string>
+    <string name="crear_ubi_label">Crear Ubicacion</string>
+    <string name="date">Fecha</string>
+    <string name="descrip_camion">Descripcion</string>
+    <string name="descripcion">descripcion</string>
+    <string name="desde">Desde</string>
+    <string name="edit_info">Editar Info.</string>
+    <string name="editar_camion_label">Editar Camion</string>
+    <string name="editar_info_label">Editar información</string>
+    <string name="editar_ubi_label">Editar Ubicacion</string>
+    <string name="email_requerido">Emial nulo o invalido</string>
+    <string name="favorites">Favoritos</string>
+    <string name="favorites_notification">Notificarme cambios de Fav.</string>
+    <string name="foto_portada">Foto de Portada</string>
+    <string name="from">Desde:</string>
+    <string name="get">TRAER</string>
+    <string name="hasta">Hasta</string>
+    <string name="hide">Ocultar</string>
+    <string name="image_required">No ha elegido una imagen</string>
+    <string name="info_camion">Información</string>
+    <string name="informacion">información</string>
+    <string name="latitud">Latitud</string>
+    <string name="login">Ingresar</string>
+    <string name="longitud">Longitud</string>
+    <string name="mis_camiones">Mis Camiones</string>
+    <string name="negative_button">Cancelar</string>
+    <string name="nombre">nombre</string>
+    <string name="nombre_camion">Nombre</string>
+    <string name="nombre_requerido">Nombre es Requerido</string>
+    <string name="nuevo_camion">Nuevo Camion</string>
+    <string name="otra_foto">Otra Foto.</string>
+    <string name="pais">País</string>
+    <string name="pais_requerido">País es Requerido</string>
+    <string name="password_requerido">Conraseña es Requerido</string>
+    <string name="positive_button">Aceptar</string>
+    <string name="progress">En progreso ...</string>
+    <string name="search">Buscar</string>
+    <string name="something_went_wrong">Algo ha salido mal</string>
+    <string name="tel_requerido">Telefono es Requerido</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="time">Tiempo</string>
+    <string name="tipo_camion">Tipo</string>
+    <string name="to">Hasta:</string>
+    <string name="uploading">Subiendo ...</string>
+    <string name="user_email">Email</string>
+    <string name="user_nombre">Nombre de Usuario</string>
+    <string name="user_not_found">Usuario no Encontrado</string>
+    <string name="user_password">Contraseña</string>
+    <string name="user_register">Registrarme</string>
+    <string name="user_sign_in">Ingresar</string>
+    <string name="user_tel">Telefono</string>
+</resources>

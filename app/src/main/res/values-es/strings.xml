@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreetFood</string>
+    <string name="altura">Altura</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="altura_requerido">Altura es Requerido</string>
+    <string name="barrio">Barrio</string>
+    <string name="barrio_requerido">Barrio es Requerido</string>
+    <string name="calle">Calle</string>
+    <string name="calle_requerido">Calle es Requerido</string>
+    <string name="city_requerido">Ciudad es Requerido</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="comidas">Comida</string>
+    <string name="crear_camion">Confirmar</string>
+    <string name="crear_camion_label">Crear Camion</string>
+    <string name="crear_info">Crear Info.</string>
+    <string name="crear_info_label">Crear Informacion</string>
+    <string name="crear_ubi_label">Crear Ubicacion</string>
+    <string name="date">Fecha</string>
+    <string name="descrip_camion">Descripcion</string>
+    <string name="descripcion">descripcion</string>
+    <string name="desde">Desde</string>
+    <string name="edit_info">Editar Info.</string>
+    <string name="editar_camion_label">Editar Camion</string>
+    <string name="editar_info_label">Editar información</string>
+    <string name="editar_ubi_label">Editar Ubicacion</string>
+    <string name="email_requerido">Emial nulo o invalido</string>
+    <string name="favorites">Favoritos</string>
+    <string name="favorites_notification">Notificarme cambios de Fav.</string>
+    <string name="foto_portada">Foto de Portada</string>
+    <string name="from">Desde:</string>
+    <string name="get">TRAER</string>
+    <string name="hasta">Hasta</string>
+    <string name="hide">Ocultar</string>
+    <string name="image_required">No ha elegido una imagen</string>
+    <string name="info_camion">Información</string>
+    <string name="informacion">información</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="mis_camiones">Mis Camiones</string>
+    <string name="negative_button">Cancelar</string>
+    <string name="nombre">nombre</string>
+    <string name="nombre_camion">Nombre</string>
+    <string name="nombre_requerido">Nombre es Requerido</string>
+    <string name="nuevo_camion">Nuevo Camion</string>
+    <string name="otra_foto">Otra Foto.</string>
+    <string name="pais">País</string>
+    <string name="pais_requerido">País es Requerido</string>
+    <string name="password_requerido">Conraseña es Requerido</string>
+    <string name="positive_button">Aceptar</string>
+    <string name="progress">En progreso ...</string>
+    <string name="search">Buscar</string>
+    <string name="something_went_wrong">Algo ha salido mal</string>
+    <string name="tel_requerido">Telefono es Requerido</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="time">Tiempo</string>
+    <string name="tipo_camion">Tipo</string>
+    <string name="to">Hasta:</string>
+    <string name="uploading">Subiendo ...</string>
+    <string name="user_email">Email</string>
+    <string name="user_nombre">Nombre de Usuario</string>
+    <string name="user_not_found">Usuario no Encontrado</string>
+    <string name="user_password">Contraseña</string>
+    <string name="user_register">Registrarme</string>
+    <string name="user_sign_in">Ingresar</string>
+    <string name="user_tel">Telefono</string>
+    <string name="login">Ingresar</string>
+
+    <string-array name="tipo_array">
+        <item>FoodTruck</item>
+        <item>Trailer</item>
+        <item>Stand</item>
+        <item>Kiosk</item>
+    </string-array>
+    <string-array name="dia_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="mes_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="hora_array">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+</resources>

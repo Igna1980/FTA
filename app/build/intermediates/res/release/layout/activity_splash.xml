@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pantalla_fondo_02" >
+</LinearLayout><!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/layout/activity_splash.xml -->

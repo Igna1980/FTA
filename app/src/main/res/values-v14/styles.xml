@@ -1,0 +1,28 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+
+            <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+            <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+
+    </style>
+    <style name="Sherlock.__Theme" parent="android:Theme.Holo">
+        <item name="textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Holo.Light">
+        <item name="textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/celeste_oscuro_color</item>
+        <item name="android:background">@color/celeste_oscuro_color</item>
+    </style>
+</resources>

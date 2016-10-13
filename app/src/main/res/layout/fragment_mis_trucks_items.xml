@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:padding="2dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView_logo_camion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:src="@drawable/img_avatar_profile_rouded" />
+
+    <TextView
+        android:id="@+id/textView_nombre_camion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:text="Large Text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/azul_color"
+        android:layout_weight="1.02"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/button_editar_camion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/edit"
+            android:padding="2dp" />
+
+        <Button
+            android:id="@+id/button_borrar_camion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/delete"
+            android:padding="2dp" />
+
+        <Button
+            android:id="@+id/button_crear_editar_menu"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/information"
+            android:padding="2dp" />
+
+        <Button
+            android:id="@+id/button_crear_editar_ubicacion"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/earth_location" />
+    </LinearLayout>
+
+</LinearLayout>

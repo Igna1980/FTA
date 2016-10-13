@@ -1,0 +1,161 @@
+apply plugin: 'com.android.application'
+apply plugin: 'checkstyle'
+apply plugin: 'findbugs'
+apply plugin: 'pmd'
+
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:19'
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.bamobile.fdtks"
+        minSdkVersion 9
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../../debug.keystore")
+        }
+        debug {
+            storeFile file("../../debug.keystore")
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    //    # Google Location, Activity Recognition, and Places
+    compile ('com.google.android.gms:play-services-location:7.5.0') {
+        exclude(group: 'com.android.support', module: 'support-v4')
+    }
+    //    # Google Maps
+    compile ('com.google.android.gms:play-services-maps:7.5.0') {
+        exclude(group: 'com.android.support', module: 'support-v4')
+    }
+
+    compile files('libs/autobahn-0.5.0.jar')
+
+    compile files('libs/gson-2.2.2-patched.jar')
+
+    compile project(':library')
+
+    compile ('com.squareup.retrofit2:retrofit:2.0.0') {
+        // exclude Retrofit’s OkHttp peer-dependency module and define your own module import
+        exclude module: 'okhttp'
+    }
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+
+    compile "com.squareup.okhttp3:okhttp:3.0.0"
+    compile "com.squareup.okhttp3:okhttp-urlconnection:3.2.0"
+    compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+
+    compile 'org.roboguice:roboguice:3.0.1'
+    provided 'org.roboguice:roboblender:3.0.1'
+
+    compile 'io.reactivex:rxandroid:0.25.0'
+    compile 'io.reactivex:rxjava:0.25.0'
+
+    compile 'com.loopj.android:android-async-http:1.4.9'
+
+    provided 'com.google.code.findbugs:annotations:3.0.0'
+
+    checkstyle 'com.puppycrawl.tools:checkstyle:6.7'
+
+    findbugs 'com.google.code.findbugs:findbugs:3.0.1'
+    findbugs configurations.findbugsPlugins.dependencies
+
+    // To keep everything tidy, we set these apart
+    findbugsPlugins('com.monits:findbugs-plugin:0.2.0-SNAPSHOT') {
+        transitive = false
+    }
+
+    findbugsPlugins 'com.mebigfatguy.fb-contrib:fb-contrib:6.2.1'
+}
+
+// linters!
+task checkstyle(type: Checkstyle) {
+    new File("${project.rootDir}/config/checkstyle/").mkdirs()
+    configFile file("${project.rootDir}/config/checkstyle/checkstyle.xml")
+    configProperties.checkstyleSuppressionsPath = file("${project.rootDir}/config/checkstyle/suppressions.xml").absolutePath // Where is my suppressions file for checkstyle is...
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    classpath = project.configurations.compile
+}
+
+task findbugs(type: FindBugs) {
+    dependsOn project.tasks.withType(JavaCompile)
+    ignoreFailures = false
+    effort = "max"
+    reportLevel = "high"
+    excludeFilter = new File("${project.rootDir}/config/findbugs/findbugs-filter.xml")
+    classes = files("$project.buildDir/intermediates/classes/")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = false
+        html.enabled = true
+        xml {
+            destination "$project.buildDir/reports/findbugs/findbugs.xml"
+            xml.withMessages true
+        }
+        html {
+            destination "$project.buildDir/reports/findbugs/findbugs.html"
+        }
+    }
+
+    pluginClasspath = project.configurations.findbugsPlugins
+}
+
+pmd {
+    toolVersion = '5.3.2'
+}
+
+task pmd(type: Pmd) {
+    ignoreFailures = true
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+
+    ruleSets = ["basic", "braces", "strings"]
+}
+
+// add CPD to check
+check << {
+    File outDir = new File("$project.buildDir/reports/pmd/")
+    outDir.mkdirs()
+    ant.taskdef(name: 'cpd', classname: 'net.sourceforge.pmd.cpd.CPDTask',
+            classpath: configurations.pmd.asPath)
+    ant.cpd(minimumTokenCount: '100', format: 'xml',
+            outputFile: new File(outDir, 'cpd.xml')) {
+        fileset(dir: "src") {
+            include(name: '**/*.java')
+            exclude(name: '**/gen/**')
+        }
+    }
+}
+
+check.dependsOn 'checkstyle', 'pmd', 'findbugs'

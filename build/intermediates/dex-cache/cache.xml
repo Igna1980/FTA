@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/libs/gson-2.2.2-patched.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1844e3bb3d6cd13e54e0e2ec38886ce601c4d6f6">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/gson-2.2.2-patched-e2a9734a6502a796d85a6e00b0735771161850ff.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/classes-da226f3578b6921e4fa3adf9d5944204cd542185.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-32bcef104933fca9f0ee0f51e8d4f31552d8c1d2.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/gson-2.6.1-1f4a700ad7f26d4cbb41226aec035a1fed205bfc.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0/49eb3ad545e7701234e4dd83db8dc1344b577f23/converter-gson-2.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="49eb3ad545e7701234e4dd83db8dc1344b577f23">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-85a2458578407dc3f8696a2a406a243bfc197a58.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/FoodTrucksArgentinos2/library/unspecified/jars/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e19387dc3b060af32f5401f84fbe246635256955">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/android-support-v4-ff7b829c6e56fcc18108a7405d46eab75a210861.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/classes-b8ec8f7d7a0441bac069c837bc20f916091e7424.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-0d6160f0baac43eb17b3c502ef8c631bbd5978d0.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.1/b494968f6050d494de55dc3ce005e59c7eb40012/rxjava-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b494968f6050d494de55dc3ce005e59c7eb40012">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/rxjava-1.1.1-33c6ef43e00cc71f07a8e072601def9cfe861d2d.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/org.roboguice/roboguice/3.0.1/24e814f35d5cc28eaa7e9f07a50ea69deeb2b544/roboguice-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/roboguice-3.0.1-5cd1f6dccdfe6abbc9d0d40396c3d9a40af3c596.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.1/cabf146d220dcd70a2972166cd1bfae200b97eff/adapter-rxjava-2.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cabf146d220dcd70a2972166cd1bfae200b97eff">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.1-9d112850d3ac5ad3145cd3337153ed523cb831c2.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/libs/autobahn-0.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5f62bc6117f905fd37955f6e2ebd3aad68701b60">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/autobahn-0.5.0-9abb864c8ba52cd4a1181ed4de072f30dd765494.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/FoodTrucksArgentinos2/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9016e7933f3ed12d489cf664635257672bad163e">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/classes-53122b9752edbfd34360e0a2bdc7d2e164b5ce3b.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/0.25.0/866b539d3ae58abbd47880f243c02f914fec5cda/rxandroid-0.25.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="866b539d3ae58abbd47880f243c02f914fec5cda">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/rxandroid-0.25.0-c4fdcc5abc04496348be759288ff2e2d43ce5446.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-5ac5e6f7a2e92bb44a786e337e2538be3b578cfe.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.2.0-2239798ffd85d0e03463f9e9aff68979c06cdc54.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/classes-22eb98d7d20eb136899bc211b8fa7c17514e93c1.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/okio-1.6.0-9cbc9096f2182a4eea31562e1b6913e575308671.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-fae10e00e17c050e9763cba2b511225a5c0e18ec.jar" />
+    </item>
+    <item
+        jar="/Users/intranetsuma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.1/27293c440d2085cde1d859528aff6e7d3b6ae40/retrofit-2.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="027293c440d2085cde1d859528aff6e7d3b6ae40">
+        <dex dex="/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/pre-dexed/debug/retrofit-2.0.1-b2ef3f213bcb548c83e97a4ba60bdea04136b0d7.jar" />
+    </item>
+
+</items>

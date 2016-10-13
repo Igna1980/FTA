@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:background="@color/white_color"
+    android:orientation="vertical" >
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="center_vertical" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/image_logo_camion" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:src="@drawable/ic_launcher" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/textView_nombre_camion" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="Medium Text" -->
+<!--             android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+<!--     </LinearLayout> -->
+
+    <EditText
+        android:id="@+id/editText_descrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:ems="10"
+        android:hint="@string/descrip_camion"
+        android:maxLength="200" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText_comidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:ems="10"
+        android:hint="@string/menu_camion"
+        android:inputType="textMultiLine"
+        android:maxLength="200" />
+
+    <EditText
+        android:id="@+id/editText_informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:ems="10"
+        android:hint="@string/info_camion" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@drawable/enviroment"
+            android:src="@drawable/enviroment" />
+
+        <EditText
+            android:id="@+id/editText_web"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:ems="10"
+            android:maxLength="200" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@drawable/mail"
+            android:src="@drawable/mail" />
+
+        <EditText
+            android:id="@+id/editText_contacto"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:ems="10"
+            android:maxLength="200" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView_facebook"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@drawable/facebook"
+            android:src="@drawable/facebook" />
+
+	    <EditText
+	        android:id="@+id/editText_facebook"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.00"
+	        android:ems="10"
+	        android:maxLength="200" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView_twitter"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@drawable/twitter"
+            android:src="@drawable/twitter" />
+
+	    <EditText
+	        android:id="@+id/editText_twitter"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.00"
+	        android:ems="10"
+	        android:maxLength="200" />
+	</LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView_instagram"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@drawable/instagram"
+            android:src="@drawable/instagram" />
+	    <EditText
+	        android:id="@+id/editText_instagram"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.00"
+	        android:ems="10"
+	        android:maxLength="200" />
+	</LinearLayout>
+    <Button
+        android:id="@+id/button_confirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_color"
+        android:text="Confirmar"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout><!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/layout/fragment_create_informacion.xml -->

@@ -1,0 +1,57 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.Sherlock.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+
+        <item name="actionBarTabStyle">@style/Widget.MyTheme.TabView</item>
+        <item name="android:actionBarTabStyle">@style/Widget.MyTheme.TabView</item>
+
+    </style>
+
+    <style name="Widget.MyTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">@color/celeste_oscuro_color</item>
+        <item name="background">@color/celeste_oscuro_color</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.TitleTextStyle</item>
+    </style>
+
+    <style name="Widget.MyTheme.TabView" parent="Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@color/celeste_oscuro_color</item>
+        <item name="background">@color/celeste_oscuro_color</item>
+    </style>
+
+    <style name="Widget.MyTheme.Tab.Text" parent="Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.TitleTextStyle"
+            parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/celeste_oscuro_color</item>
+        <item name="android:background">@color/celeste_oscuro_color</item>
+    </style>
+
+</resources>

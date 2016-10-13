@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bamobile.fdtks.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"
+        android:orderInCategory="100"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_fav"
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/icon_llave_blanca"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string-array name="dia_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="hora_array">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string-array name="mes_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="tipo_array">
+        <item>FoodTruck</item>
+        <item>Trailer</item>
+        <item>Stand</item>
+        <item>Kiosk</item>
+    </string-array>
+    <string name="action_settings">Configuração</string>
+    <string name="altura">Número da rua</string>
+    <string name="altura_requerido">Número Requerido</string>
+    <string name="app_name">StreetFood</string>
+    <string name="barrio">Bairro</string>
+    <string name="barrio_requerido">Bairro Requerido</string>
+    <string name="calle">Rua</string>
+    <string name="calle_requerido">Rua Requerido</string>
+    <string name="city_requerido">Cidade Requerido</string>
+    <string name="ciudad">Cidade</string>
+    <string name="comidas">Alimento</string>
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values-pt/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige uma atualização para o app Android Wear."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma atualização para o app Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Atualizar o Android Wear"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige um ou mais Google Play Services que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber assistência."</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Ativar o Google Play Services"</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Ative o Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Solicitado por <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Instalar o Google Play Services"</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu smartphone."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Instale o Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"A conta especificada não existe no dispositivo. Escolha outra conta."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Conta inválida"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Um app requer a ativação do Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"É necessária uma conexão de dados para conectar ao Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Erro na rede"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Um app requer a atualização do Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Erro ao fazer login na conta especificada. Escolha outra conta."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Falha de login"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema desconhecido com o Google Play Services."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depende do Google Play Services, o qual não é compatível com seu dispositivo. Entre em contato com o fabricante para receber assistência."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Atualize o Google Play Services"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play Services em atualização"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Login"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <!-- From: file:/Users/intranetsuma/Documents/FoodTrucksArgentinos2/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="crear_camion">Confirmar</string>
+    <string name="crear_camion_label">Criar Camião</string>
+    <string name="crear_info">Criar info.</string>
+    <string name="crear_info_label">Criar informação</string>
+    <string name="crear_ubi_label">Criar Alocação</string>
+    <string name="date">Data</string>
+    <string name="descrip_camion">Descrição</string>
+    <string name="descripcion">descrição</string>
+    <string name="desde">De</string>
+    <string name="edit_info">Editar informação</string>
+    <string name="editar_camion_label">Editar camião</string>
+    <string name="editar_info_label">Editar informação</string>
+    <string name="editar_ubi_label">Editar Alocação</string>
+    <string name="email_requerido">Email nulo e inválido</string>
+    <string name="favorites">Preferidos</string>
+    <string name="favorites_notification">Notificar modificações</string>
+    <string name="foto_portada">Foto da capa</string>
+    <string name="from">Das:</string>
+    <string name="get">Conseguir</string>
+    <string name="hasta">Até</string>
+    <string name="hide">Ocultar</string>
+    <string name="image_required">Você não escolheu nenhuma imagem</string>
+    <string name="info_camion">Informação</string>
+    <string name="informacion">informação</string>
+    <string name="latitud">Latitude</string>
+    <string name="login">início de sessão</string>
+    <string name="longitud">Longitude</string>
+    <string name="mis_camiones">Meu caminhões</string>
+    <string name="negative_button">Cancelar</string>
+    <string name="nombre">nome</string>
+    <string name="nombre_camion">Nome</string>
+    <string name="nombre_requerido">Requere-se um nome</string>
+    <string name="nuevo_camion">Novo camião</string>
+    <string name="otra_foto">Uma fotografia.</string>
+    <string name="pais">País</string>
+    <string name="pais_requerido">Requere-se um país</string>
+    <string name="password_requerido">Requere-se senha</string>
+    <string name="positive_button">Aceitar</string>
+    <string name="progress">Em Curso ...</string>
+    <string name="search">Procurar</string>
+    <string name="something_went_wrong">Alguma coisa está errada</string>
+    <string name="tel_requerido">Requere-se telefone</string>
+    <string name="tiempo">Tempo</string>
+    <string name="time">Tempo</string>
+    <string name="tipo_camion">TIpo</string>
+    <string name="to">dez:</string>
+    <string name="uploading">UpLoading ...</string>
+    <string name="user_email">Email</string>
+    <string name="user_nombre">Nome do usuário</string>
+    <string name="user_not_found">Usuário não achado</string>
+    <string name="user_password">Contra-senha</string>
+    <string name="user_register">Inscrever-se</string>
+    <string name="user_sign_in">Ingressar</string>
+    <string name="user_tel">Telefone</string>
+</resources>
